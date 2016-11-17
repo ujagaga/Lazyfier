@@ -4,7 +4,8 @@ I tried several remote controller apps for android to controll my desktop multim
 They generally offer too much and load too slow. I decided to write my own lightweight app and server.
 it should work on any Android version above 4.0.3.
 
-I wrote the server in python for both Linux (tested on XUbuntu but should work on any other version too) and Windows (tested on win7 64-bit and windows 10). 
+  I wrote the server in python for both Linux (tested on XUbuntu but should work on any other version too) and Windows (tested on win7 64-bit and windows 10). The python scrypt is chross platform, but some additional scripts and functions are platform specific so it detects the platform in order to adapt. 
+  On windows I used py2exe to wrap the scrypt into an executable. PyInstaller has too many dependencies and makes windows installation more difficult (needs cpp runtime too), but py2exe uses python2, so the script is adjusted for python2 on windows. However, on linux, python2 does not set window icon, so I used python3 and wrapped the server in a binary using PyInstaller.
 
 Features:
 

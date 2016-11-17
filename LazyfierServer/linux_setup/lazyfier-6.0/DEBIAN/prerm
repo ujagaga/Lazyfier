@@ -1,0 +1,11 @@
+#!/bin/sh
+
+pkill LazyfierBeacon
+pkill LazyfierServer
+rm -f /opt/lazyfier_6/config.txt
+
+sleep 1
+
+
+
+

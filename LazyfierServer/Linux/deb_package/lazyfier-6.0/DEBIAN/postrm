@@ -1,9 +1,0 @@
-#!/bin/sh
-# this script runs after the package has been removed
-
-
-rm -f $HOME/.config/autostart/lazyfier.desktop
-rm -f $HOME/.config/autostart/Lazyfier.desktop
-
-
-exit 0
