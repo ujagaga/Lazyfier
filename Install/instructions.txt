@@ -1,0 +1,6 @@
+I tried several remote controller apps for android to controll my desktop multimedia. 
+They generally offer too much and load too slow. I decided to write my own lightweight app and server.
+
+All you need to do is install on your computer lazyfier-5.0.deb.
+It will automatically setup a shortcut to run at startup.
+A hidden feature is holding play button longer sends space key command.

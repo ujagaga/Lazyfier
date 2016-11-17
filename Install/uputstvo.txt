@@ -1,0 +1,10 @@
+Testirao sam nekoliko android aplikacija koje sluze kao daljinski upravljac za multimediu desktop racunara.
+Nude previse i pokrecu se presporo. odlucio sam da napisem sopstvenu android aplikaciju i server.
+
+Na linux-u je potrebno samo instalirati lazyfier-5.0.deb. Ako ne uspevate da instalirate kroz standardni Software centar, 
+mozete i kroz Terminal: "sudo apt install ./lazyfier-5.0.deb"
+Automatski ce instalirati sve sto mu treba i podesiti da startuje sa sistemom.
+Skrivena opcija je drzanje play dugmeta duze da se posalje "space" taster komanda.
+
+
+
