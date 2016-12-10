@@ -1,0 +1,5 @@
+#!/bin/sh
+
+exec /opt/lazyfier_6/LazyfierServer &
+
+

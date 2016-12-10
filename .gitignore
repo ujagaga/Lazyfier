@@ -1,3 +1,5 @@
 /LazyfierClient/.gradle/
 /LazyfierClient/build/
+/LazyfierClient/app/build/
 /LazyfierServer/linux_setup/lazyfier-6.0.deb
+/LazyfierServer/linux_setup/lazyfier-6.1.deb

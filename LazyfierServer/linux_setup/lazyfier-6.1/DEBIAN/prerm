@@ -1,0 +1,10 @@
+#!/bin/sh
+
+pkill LazyfierServer
+rm -f /opt/lazyfier_6/config.txt
+
+sleep 1
+
+
+
+

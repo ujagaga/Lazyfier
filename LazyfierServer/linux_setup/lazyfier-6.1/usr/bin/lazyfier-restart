@@ -1,0 +1,6 @@
+#!/bin/sh
+
+pkill LazyfierServer
+sleep 3
+lazyfier &
+

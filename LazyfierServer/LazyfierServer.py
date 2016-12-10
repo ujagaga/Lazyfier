@@ -447,7 +447,7 @@ def thread_beacon():
             if OS_PLATFORM == 'windows':
                 run_async_process([current_path + "\\restart_server.bat"])
             else:
-                run_async_process([current_path + '/restart_server.sh'])
+                run_async_process([current_path + '/lazyfier-restart'])
 
         broadcaster.sendto(beacon_msg.encode(), ('<broadcast>', BROADCAST_PORT))
 
